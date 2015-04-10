@@ -1,10 +1,10 @@
 public class carrinho{  
       
-    public produto[] compras; 
+    private produto[] compras; 
 
 
 
-    public double preçototal(produto p[]){
+    public double precototal(carrinho p[]){
 
           int i=0;
           double total;
@@ -20,7 +20,7 @@ public class carrinho{
     }
 
 
-        public double pesototal(produto p[]){
+        public double pesototal(carrinho p[]){
 
           int i=0;
           double total;
@@ -34,6 +34,21 @@ public class carrinho{
 
 
     }
+
+
+    public setcarrinho(produto p[]){
+        int i=0
+                while(p[i]!=null){
+
+
+                    p[i]=compras[i];
+
+    }
+
+
+}
+
+
 
 
 
